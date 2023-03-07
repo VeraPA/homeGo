@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Мой кабинет</h1>
+        <section class="user-cabinet">
+            <div class="user-nav">
+                <ul class="list_user-nav">
+                    <li class="list-item-header">
+                        <div class="user">
+                            <div class="user-avatar_wrapper">
+                                <div class="user-avatar">
+                                    <img src="/Interface 166 - 24px.png">
+                                </div>
+                                <div class="user-info">
+                                    <p class="user-name">Михаил Мингалёв</p>
+                                    <p class="user-status">Покупатель</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                         <a class="user-nav_link" href="#">Мой профиль</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="user-nav_link" href="#">Statut club</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="user-nav_link" href="#">Заказы</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="user-nav_link" href="#">Избранные товары</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="user-nav_link" href="#">Отзывы о товарах</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="user-nav_link-exit" href="#">Выход</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="user-profile">
+                <h2>Мой профиль</h2>
+                <nav class="user-profile_nav">
+                    <ul class="user-profile_nav-list">
+                        <li class="user-profile_nav-item">
+                            <a class="user-profile_nav-link_personalData">Личные данные</a>
+                        </li>
+                        <li class="user-profile_nav-item">
+                            <a class="user-profile_nav-link_delivery">Адрес доставки</a>
+                        </li>
+                        <li class="user-profile_nav-item">
+                            <a class="user-profile_nav-link_password">Пароль</a>
+                        </li>
+                    </ul>
+                </nav>
+                <form class="form-user_profile" action="">
+                    <label for="E-mail">E-mail <span>*</span></label><br>
+                    <input id="E-mail" type="text"><br>
+
+                <div class="wrapper-form-user_phoneNumber">
+                    <div>
+                        <label for="form_user-phone_number">Номер телефона <span>*</span></label><br>
+                        <input id="form_user-phone_number" type="text"><br>
+                    </div>
+                    <div>
+                        <label for="form_user-addphone_number">Дополнительный номер</label><br>
+                        <input id="form_user-addphone_number" type="text"><br>
+                    </div>
+                 </div>
+
+                    <label for="form_user-lastName">Фамилия <span>*</span></label><br>
+                    <input id="form_user-lastName" type="text"><br>
+                    <label for="form_userName">Имя <span>*</span></label><br>
+                    <input id="form_userName" type="text"><br>
+                    <label for="form_user-surName">Отчество <span>*</span></label><br>
+                    <input id="form_user-surName" type="text">
+    
+                    <p class="titleBirthday">Дата рождения</p>
+                    <div class="select-wrapper"></div>
+                        <select class="form_user-DateBirth" name="form_user-DateBirth">
+                            <option value="form_user-DateBirth">1</option>
+                             <option value="form_user-DateBirth">2</option>
+                         </select>
+                         <div class="select-wrapper-Monthbirth"></div>
+                    <select class="form_user-Monthbirth" name="form_user-DateBirth">
+                        <option value="form_user-Monthbirth">Сентября</option>
+                        <option value="form_user-Monthbirth">Октября</option>
+                    </select>
+                    <div class="select-wrapper-Yearbirth"></div>
+                    <select class="form_user-Yearbirth" name="form_user-DateBirth">
+                        <option value="form_user-Yearbirth">1994</option>
+                        <option value="form_user-Yearbirth">1993</option>
+                    </select>
+
+                    <p>Пол</p>
+                    <label for="form_user_gender-male"></label>
+                    <input id="form_user_gender-male" type="submit" value="Мужской">
+                    <label for="form_user_gender-female"></label>
+                    <input type="submit" value="Женский">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
